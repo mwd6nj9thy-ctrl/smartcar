@@ -1,0 +1,61 @@
+# Ignore generated files and directories
+## Build artifacts
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.dylib
+*.exe
+*.out
+
+## Compiler output
+*.asm
+*.d
+*.lst
+*.map
+
+## IDE and Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+*.sublime-project
+*.sublime-workspace
+
+## Keil uVision
+Objects/
+Listings/
+*.uvoptx
+*.o
+*.d
+
+## Proteus
+Backup/
+*.bak
+*.pdsbak
+
+## OS specific
+.DS_Store
+Thumbs.db
+
+## Generated files
+*.hex
+*.bin
+*.elf
+*.axf
+*.scvd
+
+## Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+## Misc
+*.tmp
+*.log
+debug/
+release/
